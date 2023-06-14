@@ -1,0 +1,13 @@
+.LocationBox {
+    width: 100%;
+}
+
+.location {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.location h1 {
+    font-size: 3rem;
+}

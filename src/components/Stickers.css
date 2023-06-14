@@ -1,0 +1,10 @@
+.Stickers {
+    background-color: white;
+    border: 5px solid #FFD966;
+    border-radius: 10px;
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}

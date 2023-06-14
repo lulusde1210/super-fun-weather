@@ -1,0 +1,47 @@
+.SearchBox {
+    width: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: -60px;
+}
+
+.search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #FFD966;
+    border-radius: 10px;
+    color: #313131;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+
+}
+
+.search-bar:foucs {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.SearchBox button {
+    display: block;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #FFD966;
+    border-radius: 10px;
+    color: #313131;
+    font-size: 1rem;
+}
+
+.SearchBox button:hover {
+    cursor: pointer;
+}

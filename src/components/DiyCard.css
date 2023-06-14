@@ -1,0 +1,23 @@
+.DiyCard {
+    border: 5px solid #FFD966;
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DiyCard img {
+    width: 300px;
+    bottom: 0%;
+    left: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

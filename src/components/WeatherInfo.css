@@ -1,0 +1,29 @@
+.WeatherInfo {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WeatherInfo p {
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+
+.purple {
+    background-color: #B2A4FF;
+}
+
+.blue {
+    background-color: #AEE2FF;
+}
+
+.green {
+    background-color: #CDE990;
+}

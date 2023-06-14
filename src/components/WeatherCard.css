@@ -1,0 +1,16 @@
+.WeatherCard {
+    background-color: #FFD966;
+    background-size: cover;
+    background-position: bottom;
+    transition: all 0.5s ease;
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
