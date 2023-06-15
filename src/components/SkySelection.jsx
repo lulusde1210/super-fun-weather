@@ -1,16 +1,17 @@
 import './SkySelection.css';
 
 
-const SkySelction = () => {
+const SkySelction = ({ onChangeFunc }) => {
     return (
         <div className="SkySelection">
             <p>Change sky</p>
-            <select className="sky-select">
+            <select onChange={onChangeFunc} className="sky-select">
+                <option value=""></option>
                 <option value="sunny">Sunny</option>
                 <option value="cloudy">Cloudy</option>
                 <option value="rainy">Rainy</option>
                 <option value="snowy">Snowy</option>
-                <option value="snowy">Windy</option>
+                <option value="windy">Windy</option>
             </select>
         </div>
     );

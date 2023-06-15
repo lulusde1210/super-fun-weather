@@ -1,6 +1,4 @@
 import Draggable from 'react-draggable';
-import { Resizable } from 'react-resizable';
-
 
 const DraggableImage = ({ imgURL }) => {
     return (

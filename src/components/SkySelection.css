@@ -1,12 +1,10 @@
 .SkySelection {
-    margin: 20px;
     position: absolute;
     display: inline-block;
     padding: 15px;
     background-color: #FFD966;
-    border-radius: 10px;
-    top: 35px;
-    left: 44%;
+    border-radius: 0 0 10px 10px;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;

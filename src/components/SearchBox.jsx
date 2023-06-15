@@ -10,7 +10,6 @@ const SearchBox = () => {
     return (
         <div className="SearchBox">
             <input type="text" onInput={handleCityInput} className='search-bar' placeholder={val} />
-            <button>Search</button>
         </div>
     );
 

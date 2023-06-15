@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    top: -60px;
+    top: 0
 }
 
 .search-bar {
@@ -16,8 +16,8 @@
     background: none;
     border: none;
     outline: none;
-    background-color: #FFD966;
-    border-radius: 10px;
+    background-color: #FEFBE9;
+    border-radius: 0 0 10px 10px;
     color: #313131;
     font-size: 1rem;
     transition: all 0.5s ease;
@@ -31,7 +31,7 @@
 
 .SearchBox button {
     display: block;
-    padding: 15px;
+    padding: 12px;
     appearance: none;
     background: none;
     border: none;

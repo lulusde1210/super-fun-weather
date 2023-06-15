@@ -1,20 +1,20 @@
-import { useState } from 'react';
 import './App.css';
 import WeatheCard from './components/WeatherCard';
 import DiyCard from './components/DiyCard';
 import Stickers from './components/Stickers';
-import SkySelection from './components/SkySelection';
+import NavBar from './components/NavBar';
 
 
 function App() {
 
   return (
     <div className='App'>
-      <WeatheCard />
-      <SkySelection />
-      <DiyCard weather='sunny' />
-      <Stickers />
-
+      <NavBar />
+      <div className="content">
+        <WeatheCard />
+        <DiyCard />
+        <Stickers />
+      </div>
     </div>
   )
 }

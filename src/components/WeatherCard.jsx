@@ -1,4 +1,3 @@
-import SearchBar from './SearchBox';
 import './WeatherCard.css';
 import clearDay from '../assets/clearDay.svg';
 import WeatherIcon from './WeatherIcon';
