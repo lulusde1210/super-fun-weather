@@ -1,7 +1,7 @@
 .SkySelection {
     position: absolute;
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     background-color: #FFD966;
     border-radius: 0 0 10px 10px;
     top: 0;
@@ -12,6 +12,7 @@
 
 .SkySelection p {
     margin-right: 20px;
+    font-size: 1.2rem;
 }
 
 .sky-select {
