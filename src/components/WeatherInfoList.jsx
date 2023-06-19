@@ -1,12 +1,12 @@
 import './WeatherInfoList.css';
 import WeatherInfo from './WeatherInfo';
 
-const WeatherInfoList = () => {
+const WeatherInfoList = ({ temp, humidity, wind }) => {
     return (
         <div className='WeatherInfoList'>
-            <WeatherInfo info='72' text='TEMP' backColor='purple' />
-            <WeatherInfo info='5%' text='RAIN' backColor='blue' />
-            <WeatherInfo info='6' text='WIND(km/h)' backColor='green' />
+            <WeatherInfo info={temp} text='TEMP' backColor='purple' />
+            <WeatherInfo info={humidity} text='HUMIDITY' backColor='blue' />
+            <WeatherInfo info={wind} text='WIND(km/h)' backColor='green' />
         </div>
     );
 };

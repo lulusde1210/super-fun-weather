@@ -1,12 +1,12 @@
 import './DiyCard.css';
 import SkySelection from './SkySelection';
 import { useState } from 'react';
-import girl from '../assets/girl.png';
-import sunny from '../assets/sunny.jpeg';
-import rainy from '../assets/rainy.jpeg';
-import snowy from '../assets/snowy.jpeg';
-import windy from '../assets/windy.jpeg';
-import cloudy from '../assets/cloudy.jpeg';
+import girl from '../assets/stickers/girl.png';
+import sunny from '../assets/skies/sunny.jpeg';
+import rainy from '../assets/skies/rainy.jpeg';
+import snowy from '../assets/skies/snowy.jpeg';
+import windy from '../assets/skies/windy.jpeg';
+import cloudy from '../assets/skies/cloudy.jpeg';
 
 
 const DiyCard = () => {
@@ -33,7 +33,7 @@ const DiyCard = () => {
 
     return (
         <div style={{ background: `url(${backPic})` }} className="DiyCard" >
-            <SkySelection onChangeFunc={changeBackPic} />
+            <SkySelection changeBackPic={changeBackPic} />
             <img src={girl} />
         </div >
     );

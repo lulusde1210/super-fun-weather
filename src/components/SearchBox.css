@@ -22,22 +22,23 @@
     font-size: 1rem;
     transition: all 0.5s ease;
     margin-right: 10px;
-
 }
 
-.search-bar:foucs {
-    background-color: rgba(255, 255, 255, 0.75);
+.search-bar::placeholder {
+    font-family: 'Darumadrop One', cursive;
 }
 
-.SearchBox button {
+.SearchBox .search-button {
+    font-family: 'Darumadrop One', cursive;
     display: block;
-    padding: 12px;
+    padding: 7px;
     appearance: none;
     background: none;
     border: none;
     outline: none;
     background-color: #FFD966;
-    border-radius: 10px;
+    border-radius: 30px;
+    border: 2px solid #FEFBE9;
     color: #313131;
     font-size: 1rem;
 }

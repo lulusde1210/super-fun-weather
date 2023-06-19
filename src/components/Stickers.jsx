@@ -1,17 +1,17 @@
 import './Stickers.css';
 import DraggableImage from "./DraggableImage";
-import tshirt from '../assets/tshirt.png';
-import shirt from '../assets/shirt.png';
-import pinkshorts from '../assets/pinkshorts.png';
-import greenshorts from '../assets/greenshorts.png';
-import ribbon from '../assets/ribbon.png';
-import hat from '../assets/hat.png';
-import jacket from '../assets/jacket.png';
-import pamela from '../assets/pamela.png';
-import partyhat from '../assets/partyhat.png';
-import pinkdress from '../assets/pinkdress.png';
-import poodleskirt from '../assets/poodleskirt.png';
-import umbrella from '../assets/umbrella.png';
+import tshirt from '../assets/stickers/tshirt.png';
+import shirt from '../assets/stickers/shirt.png';
+import pinkshorts from '../assets/stickers/pinkshorts.png';
+import greenshorts from '../assets/stickers/greenshorts.png';
+import ribbon from '../assets/stickers/ribbon.png';
+import hat from '../assets/stickers/hat.png';
+import jacket from '../assets/stickers/jacket.png';
+import pamela from '../assets/stickers/pamela.png';
+import partyhat from '../assets/stickers/partyhat.png';
+import pinkdress from '../assets/stickers/pinkdress.png';
+import poodleskirt from '../assets/stickers/poodleskirt.png';
+import umbrella from '../assets/stickers/umbrella.png';
 
 const Stickers = () => {
     return (

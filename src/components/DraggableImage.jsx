@@ -1,9 +1,12 @@
 import Draggable from 'react-draggable';
+import React from 'react';
 
 const DraggableImage = ({ imgURL }) => {
+    const nodeRef = React.useRef(null);
+
     return (
-        <Draggable>
-            <div className="drag-img" style={{
+        <Draggable nodeRef={nodeRef}>
+            <div ref={nodeRef} className="drag-img" style={{
                 background: `url(${imgURL})`,
                 width: '150px',
                 height: '150px',

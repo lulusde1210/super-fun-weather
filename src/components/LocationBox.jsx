@@ -1,10 +1,10 @@
 import './LocationBox.css';
 
-const LocationBox = () => {
+const LocationBox = ({ city }) => {
     return (
         <div className="LocationBox">
             <div className="location">
-                <h1>Katy</h1>
+                <h1>{city}</h1>
             </div>
         </div>
     );

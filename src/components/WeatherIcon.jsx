@@ -1,10 +1,12 @@
 import "./WeatherIcon.css";
 
-const WeatherIcon = ({ imgSrc }) => {
+const WeatherIcon = ({ icon, description }) => {
     return (
         <div>
             <div className='WeatherIcon'>
-                <img src={imgSrc} />
+                <img src={`../assets/weatherIcons/${icon}.svg`} alt={icon} />
+
+                <p>{description}</p>
             </div>
         </div>
     );
