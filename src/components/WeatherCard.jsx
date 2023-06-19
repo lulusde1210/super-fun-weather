@@ -20,8 +20,8 @@ const WeatheCard = () => {
 
     useEffect(
         function fetchWeatherDataOnCityChange() {
-            const getCurrentCityWeather = async (cityName) => {
-                const url = `http://127.0.0.1:5000/weather?q=${cityName}`;
+            const getCurrentCityWeather = async () => {
+                const url = `http://127.0.0.1:5000/weather?q=${location}`;
                 const response = await axios.get(url);
                 const weatherData = response.data;
                 setWeatherData({
@@ -33,7 +33,7 @@ const WeatheCard = () => {
                     humidity: weatherData['main']['humidity'],
                 });
             }
-            getCurrentCityWeather(location);
+            getCurrentCityWeather();
 
         },
         [location]
