@@ -6,6 +6,8 @@ import SearchBox from './SearchBox';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
+const BASE_URL = "https://weather-report-server.onrender.com"
+
 const WeatheCard = () => {
     const [location, setLocation] = useState("Katy")
     const [weatherData, setWeatherData] =
@@ -21,7 +23,7 @@ const WeatheCard = () => {
     useEffect(
         function fetchWeatherDataOnCityChange() {
             const getCurrentCityWeather = async () => {
-                const url = `http://127.0.0.1:5000/weather?q=${location}`;
+                const url = `${BASE_URL}/weather?q=${location}`;
                 const response = await axios.get(url);
                 const weatherData = response.data;
                 setWeatherData({
