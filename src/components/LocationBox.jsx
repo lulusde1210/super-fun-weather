@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import './LocationBox.css';
 
 const LocationBox = ({ city }) => {
+
     return (
         <div className="LocationBox">
             <div className="location">

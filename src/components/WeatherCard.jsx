@@ -10,6 +10,7 @@ const BASE_URL = "https://weather-report-server.onrender.com"
 
 const WeatheCard = () => {
     const [location, setLocation] = useState("Katy")
+    const [isLoading, setIsLoading] = useState(true);
     const [weatherData, setWeatherData] =
         useState({
             city: "",
@@ -34,9 +35,10 @@ const WeatheCard = () => {
                     wind: weatherData['wind']['speed'],
                     humidity: weatherData['main']['humidity'],
                 });
+                setIsLoading(false);
+
             }
             getCurrentCityWeather();
-
         },
         [location]
     );
@@ -47,6 +49,7 @@ const WeatheCard = () => {
 
     return (
         <div className="WeatherCard">
+            {isLoading && <h1 id='loading'>Loading...</h1>}
             <SearchBox search={search} id='city-input' placeholder='search your city!' />
             <LocationBox city={weatherData.city} />
             <WeatherIcon icon={weatherData.icon} description={weatherData.description} className="weather-icon" />
